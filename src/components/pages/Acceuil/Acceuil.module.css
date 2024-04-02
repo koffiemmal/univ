@@ -1,0 +1,85 @@
+.mainAcceuil{
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.HomePage{
+height: 81.7vh;
+width: 100%;
+}
+.admission{
+
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    padding: 15px;
+    
+}
+.titleAdmission{
+
+    height: 40%;
+    width: 60%;
+    position: relative;
+    left: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:30px
+}
+.titleAdmission p{
+    font-size: 25px;
+}
+.stepAdmission{
+  
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.stepAdmission ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  
+    width: 90%;
+
+}
+.stepAdmission ul li section{
+ 
+    display: flex;
+    height: 10vh;
+    padding: 10px;
+   
+    justify-content: space-evenly;
+    width: 100%;
+
+
+
+}
+.stepAdmission .numberAdmission{
+    
+    height: 12vh;
+    width: 10vh;
+    font-size: 58px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-right:2px solid black ;
+
+}
+.stepAdmission .typeStepAdmmmission{
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+.gridCommunication{
+    height: 100vh;
+}
