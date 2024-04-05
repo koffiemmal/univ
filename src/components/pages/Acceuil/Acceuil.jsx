@@ -25,7 +25,10 @@ import MOnimage from "../../assets/graduating-time-covid-19-background (1).jpg";
 
 const Acceuil = () => {
   
+
+
   return (
+
     <div className={style.mainAcceuil}>
       <div className={style.HomePage}>
         <Carousel

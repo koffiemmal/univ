@@ -1,0 +1,35 @@
+.mainLogin,.mainSign{
+    background-image: url("../../assets/British-Academy-Postdoctoral-Fellowships-at-the-University-of-Edinburgh-l-1-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.274);
+}
+.opacity{
+    background-color: rgba(0, 0, 0, 0.289);
+    height: 100vh;
+    width: 100%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.opacity form{
+    border: 1px solid blue;
+    padding: 20px;
+    background-color: #d9d9d9;
+    
+}
+.opacitySign{
+    background-color: rgba(0, 0, 0, 0.346);
+    height: 100vh;
+    width: 100%;
+    display:flex ;
+    align-items: center;
+    justify-content: center; 
+}
+.opacitySign form{
+    border: 1px solid blue;
+    padding: 20px;
+    background-color: #d9d9d9;
+    width: 50vh;
+}

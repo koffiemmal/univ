@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import style from "./Header.module.css";
-import { Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 
 
 
@@ -28,7 +28,12 @@ const Header = () => {
     </section>
 
     <section className={style.portail}>
-        Mon portail
+       
+        <NavLink style={{
+          color:"black",
+          textDecoration:"none"
+
+        }} to={"/monPortail"} >Mon portail</NavLink>
     </section>
 
       </div>
