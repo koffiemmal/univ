@@ -1,34 +1,31 @@
-.Pheader{
-    height: 10vh;
-    background-color: white;
-    display: flex;
-    align-items: center;
+.Pheader {
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
 }
-.LogoAndPortail{
-    position: relative;
+.LogoAndPortail {
+  position: relative;
 
-    width: 50vh;
-    left: 35vh;
-    display: flex;
-    height: 60px;
+  width: 50vh;
+  left: 35vh;
+  display: flex;
+  height: 60px;
 }
-.logo{
-
-width: 65%;
-background-color: rgba(128, 128, 128, 0.218);
-
+.logo {
+  width: 65%;
+  background-color: rgba(128, 128, 128, 0.218);
 }
-.monPortail{
-
-width: 35%;
-display: flex;
-align-items: center;
-position: relative;
-padding: 5px;
-left: 5px;
-border-left: 3px solid black;
+.monPortail {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 5px;
+  left: 5px;
+  border-left: 3px solid black;
 }
-.monPortail p{
-    position: relative; 
-    top: 5px;
+.monPortail p {
+  position: relative;
+  top: 5px;
 }

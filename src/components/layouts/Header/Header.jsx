@@ -8,6 +8,8 @@ import { Link, NavLink, Outlet } from "react-router-dom";
 const Header = () => {
 
 
+
+
   return (
     <div className={style.mainHeader}>
       <div className={style.header}>
@@ -22,7 +24,17 @@ const Header = () => {
             <li>Futurs étudiants</li>
             <li>Etudiants actuels</li>
             <li>Etudes</li>
-            <li>Facultés</li>
+            <li>
+              <NavLink style={{
+          color:"black",
+          textDecoration:"none"
+
+        }} to={"/filiere"}>
+              Facultés
+              </NavLink>
+            
+              
+              </li>
             <li>Notre université</li>
         </ul>
     </section>

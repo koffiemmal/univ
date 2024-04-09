@@ -1,19 +1,18 @@
 import React from "react";
 import style from "./Portail.module.css";
-import Computer from "../../assets/rognable-removebg-preview.png"
+import Computer from "../../assets/rognable-removebg-preview.png";
 import { useNavigate } from "react-router-dom";
 
-
 const Portail = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
-  let handleClickLogin=()=>{
-navigate("/login")
-  }
-  let handleClickSign = ()=>{
-    navigate("/sign")
-  }
-  
+  let handleClickLogin = () => {
+    navigate("/login");
+  };
+  let handleClickSign = () => {
+    navigate("/sign");
+  };
+
   return (
     <div className={style.mainPortail}>
       <header></header>
@@ -45,16 +44,12 @@ navigate("/login")
         </section>
         <section className={style.btnDescribe}>
           <article className={style.AccessBtnDescribe}>
-          <button onClick={handleClickLogin}>
-            Accéder a mon Portail
-          </button>
-
+            <button onClick={handleClickLogin}>Accéder a mon Portail</button>
           </article>
           <article className={style.bodyfooter}> L'Université SENGHOR</article>
           <article className={style.LoginBtnDescribe}>
-          <button onClick={handleClickSign}>Creer un compte</button>
+            <button onClick={handleClickSign}>Creer un compte</button>
           </article>
-         
         </section>
       </div>
       <div className={style.portailImages}>

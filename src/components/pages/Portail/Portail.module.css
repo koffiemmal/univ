@@ -7,14 +7,12 @@
   justify-content: center;
 }
 .portailDescription {
-
   width: 35%;
   height: 80%;
   position: relative;
   left: 5vh;
 }
 .describ {
-
   height: 60%;
   padding: 10px;
 }
@@ -62,7 +60,6 @@
   top: 15px;
 }
 .btnDescribe {
-
   height: 40%;
   padding: 10px;
 }
@@ -72,67 +69,66 @@
   top: 15px;
 }
 .AccessBtnDescribe {
-    height: 74px;
-    width: 308px;
-    background-color: #2E52D3;
-    color: white;
-    font-family: sans-serif;
-    font-weight: bold;
-    border-radius: 5px;
-    border: none;
+  height: 74px;
+  width: 308px;
+  background-color: #2e52d3;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
 }
-.AccessBtnDescribe button{
-    height: 74px;
-    width: 308px;
-    background-color: #2E52D3;
-    color: white;
-    font-family: sans-serif;
-    font-weight: bold;
-    border-radius: 5px;
-    border: none;
+.AccessBtnDescribe button {
+  height: 74px;
+  width: 308px;
+  background-color: #2e52d3;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
 }
-.AccessBtnDescribe :hover{
-    cursor: pointer;
-    background-color: #5f7ff1;
+.AccessBtnDescribe :hover {
+  cursor: pointer;
+  background-color: #5f7ff1;
 }
 
 .LoginBtnDescribe {
-    height: 59px;
-    width: 298px;
-    background-color: #d9d9d9;
-    color: #2E52D3;
-    font-family: sans-serif;
-    font-weight: bold;
-    border-radius: 5px;
-  
-    position: relative;
-    top: 25px;
+  height: 59px;
+  width: 298px;
+  background-color: #d9d9d9;
+  color: #2e52d3;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+
+  position: relative;
+  top: 25px;
 }
 .LoginBtnDescribe button {
-    height: 59px;
-    width: 298px;
-    background-color: #d9d9d9;
-    color: #2E52D3;
-    font-family: sans-serif;
-    font-weight: bold;
-    border-radius: 5px;
-    border: 1px solid #2E52D3;
-    position: relative;
-    top: 25px;
+  height: 59px;
+  width: 298px;
+  background-color: #d9d9d9;
+  color: #2e52d3;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #2e52d3;
+  position: relative;
+  top: 25px;
 }
-.LoginBtnDescribe :hover{
-    cursor: pointer;
-    background-color: #5f7ff1;
-    color: #ffffff;
+.LoginBtnDescribe :hover {
+  cursor: pointer;
+  background-color: #5f7ff1;
+  color: #ffffff;
 }
 .portailImages {
-
   width: 50%;
   height: 100%;
   position: relative;
   /* bottom: 20px */
 }
-.portailImages img{
-    height: 100%;
-    width: 100%;
+.portailImages img {
+  height: 100%;
+  width: 100%;
 }

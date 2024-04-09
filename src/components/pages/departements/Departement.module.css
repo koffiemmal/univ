@@ -1,0 +1,96 @@
+.mainDepartements{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10vh;
+}
+.informations{
+
+
+    height:30vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: #eeeeee;
+    box-shadow: inset 0px 3px 2px  rgba(66, 66, 66, 0.437);
+
+}
+.title{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title p{
+  
+    border-bottom: 5px solid rgb(238, 40, 40);
+    width: 7vh;
+    text-align: center;
+   
+   
+}
+.description{
+  
+    width: 50%;
+   
+}
+.gridFilieres{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+    width: 80%;
+
+}
+.filiere{
+ 
+    height: 45vh;
+    width: 45vh;
+    border-bottom: 2px solid black;
+}
+.filiere .images{
+  
+    height: 77%;
+}
+.filiere .images p{
+    background-color: red;
+    position: relative;
+    bottom: 25vh;
+    left: 25vh;
+    width: 30vh;
+}
+
+
+
+.images img{
+    height: 100%;
+    width: 100%;
+}
+
+.filiere .filiereName{
+  
+    display: flex;
+    height:23% ;
+}
+.filiereName .name{
+    
+    width: 75%;
+  display: flex;
+  align-items: center;
+}
+.filiereName .cygle{
+    background-color: red;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    
+}

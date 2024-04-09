@@ -7,6 +7,7 @@ import Portail from "./components/pages/Portail/Portail";
 import Pheader from "./components/layouts/PortailHeader/Pheader";
 import Login from "./components/pages/Register/Login";
 import Sign from "./components/pages/Register/SIgn";
+import Departement from "./components/pages/departements/Departement";
 
 function App() {
   return (
@@ -15,13 +16,13 @@ function App() {
         <Routes>
           <Route path="/" element={<Header />}>
             <Route index element={<Acceuil />} />
-            
+            <Route path="filiere" element={<Departement/>}/>
           </Route>
           <Route path="/monPortail" element={<Pheader />}>
-            <Route index element={<Portail/>}/>
+            <Route index element={<Portail />} />
           </Route>
-          <Route path="/login" element={<Login/>}/>
-          <Route path="/sign" element={<Sign/>}/>
+          <Route path="/login" element={<Login />} />
+          <Route path="/sign" element={<Sign />} />
         </Routes>
       </BrowserRouter>
     </div>
