@@ -21,10 +21,17 @@ const Header = () => {
 
     <section className={style.navbar}>
         <ul>
-            <li>Futurs étudiants</li>
-            <li>Etudiants actuels</li>
-            <li>Etudes</li>
-            <li>
+            
+           
+            <li className={style.listes}><NavLink style={{
+          color:"black",
+          textDecoration:"none"
+
+        }} to={"/filiere"}>
+             Etudes
+              </NavLink>
+            </li>
+            <li className={style.listes}>
               <NavLink style={{
           color:"black",
           textDecoration:"none"
@@ -35,7 +42,14 @@ const Header = () => {
             
               
               </li>
-            <li>Notre université</li>
+            <li className={style.listes}><NavLink style={{
+          color:"black",
+          textDecoration:"none"
+
+        }} to={"/"}>
+              Notre Universités
+              </NavLink>
+            </li>
         </ul>
     </section>
 

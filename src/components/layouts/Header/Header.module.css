@@ -39,6 +39,9 @@ body{
     font-weight: bolder;
     font-family: sans-serif;
 }
+.navbar ul .listes :hover{
+    border-bottom: 2px solid black;
+}
 .portail{
     
     width: 15%;
