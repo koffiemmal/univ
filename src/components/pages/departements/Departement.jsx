@@ -2,23 +2,19 @@ import React, { useState } from "react";
 import style from "./Departement.module.css";
 import MOnimage from "../../assets/graduating-time-covid-19-background (1).jpg";
 
+import MeFilieres from "./filieres.json"
+
 
 
 
 const Departement = () => {
     
-    const [isHovered, setIsHovered] = useState(false);
-    let [Filiere,setFiliere] = useState([
-        {"nom":"SIL","description":"systeme Informatique et Logiciel","specialités":"Programmation embarqués et mobile"},
-        {"nom":"GII","description":"Genie Electrique et Informatique Industriel","specialités":"Maitrise des énergies renouvelables, systemes Automatisé des reseaux industriels,maintenance industriel en genie electrique "},
-        {"nom":"GMP","description":"genie mecanique et productive","specialités":"mecatronique(maintenance automobile) , robotique,conception mecanique ,métrologie,controle qualité  "},
-        {"nom":"GLT","description":"gestion logistique et transport ","specialités":"exploitation logistique et transport"},
-        {"nom":"GEA","description":"gestion des entreprises et administration","specialités":"assistant de gestion administrative,gestion des ressources humaines ,comptabilités des entreprises(controle audite et qualité)"},
-        {"nom":"TC","description":"technique de Commercialisation" ,"specialités":"managment et gestion de la relation client,marketing et communication,commerce international et transit,assurance banque-Finance"},
-        {"nom":"Infos-Com","description":"informations et Communication","specialités":"journalisme audio visuelle,communication et managment d'evenement ,communication des organisations "}
 
-    ])
- 
+    const [isHovered, setIsHovered] = useState(false);
+
+
+   let Filiere = MeFilieres.Filiere
+
       
   return (
     <div className={style.mainDepartements}>

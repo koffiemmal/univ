@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./Connexion.module.css";
 import { MDBInput, MDBCol, MDBRow, MDBBtn } from "mdb-react-ui-kit";
 import { User } from "lucide-react";
 import { NavLink, useNavigate } from "react-router-dom";
 const Login = () => {
   const navigate = useNavigate();
+  
+  let [email_user,setEmail_user] = useState("")
+  let [password_user,setPassword_user] = useState("")
+
+
   let handleClickHome = () => {
     navigate("/");
   };
@@ -26,12 +31,18 @@ const Login = () => {
             type="email"
             id="form1Example1"
             placeholder="Email address"
+            onInput={(e)=>{
+              setEmail_user(e.target.value)
+            }}
           />
           <MDBInput
             className="mb-4"
             type="password"
             id="form1Example2"
             placeholder="Password"
+            onInput={(e)=>{
+              setPassword_user(e.target.value)
+            }}
           />
 
           <MDBRow
